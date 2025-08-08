@@ -2,7 +2,6 @@ import siteConfig from "../site.config";
 
 export default function Home() {
   const sections = [
-   
     { id: 'hub', label: 'Hub des réseaux' },
     { id: 'revue', label: 'Revue de littérature' },
     { id: 'ressources', label: 'Ressources' },
