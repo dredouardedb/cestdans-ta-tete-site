@@ -33,12 +33,12 @@ export default function APropos() {
         <div className="bg-white rounded-3xl border border-neutral-200 p-4 h-fit">
           <div className="aspect-[4/5] overflow-hidden rounded-2xl bg-neutral-100">
             <Image
-              src="/images/Edouard Anime.png" // mets ta photo ici
-              alt={`Portrait de ${siteConfig.owner.name}`}
-              width={800}
-              height={1000}
-              className="w-full h-full object-cover"
-            />
+  src="/images/edouard-anime.png"
+  alt={`Portrait de ${siteConfig.owner.name}`}
+  width={800}
+  height={1000}
+  className="w-full h-full object-cover"
+/>
           </div>
           <div className="mt-4 text-sm text-neutral-600">
             <p>Basé en France • Consultations & supervision</p>
