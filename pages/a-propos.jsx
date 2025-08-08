@@ -116,63 +116,49 @@ export default function APropos() {
           <div>
             <div className="text-sm text-neutral-500">2015</div>
             <div className="font-medium">Praticien EMDR Europe</div>
-
-
-          {/* TIMELINE */}
-          <div className="rounded-3xl border border-neutral-200 p-6 bg-white">
-            <h3 className="text-lg font-semibold">Repères</h3>
-            <ol className="mt-4 space-y-4">
-              <li className="flex gap-3">
-                <div className="mt-1 size-2 rounded-full bg-neutral-900" />
-                <div>
-                  <div className="text-sm text-neutral-500">2015</div>
-                  <div className="font-medium">Praticien EMDR Europe</div>
-                  <p className="text-neutral-700 text-sm">Début de la pratique EMDR (patient & praticien) — point de bascule.</p>
-                </div>
-              </li>
-              <li className="flex gap-3">
-                <div className="mt-1 size-2 rounded-full bg-neutral-900" />
-                <div>
-                  <div className="text-sm text-neutral-500">2015–2024</div>
-                  <div className="font-medium">Addictologie & psychothérapies</div>
-                  <p className="text-neutral-700 text-sm">12 ans en centre d’addictologie + formations systémique & schémas.</p>
-                </div>
-              </li>
-              <li className="flex gap-3">
-                <div className="mt-1 size-2 rounded-full bg-neutral-900" />
-                <div>
-                  <div className="text-sm text-neutral-500">Aujourd’hui</div>
-                  <div className="font-medium">Supervision & facilitation (EDEPHE)</div>
-                  <p className="text-neutral-700 text-sm">Transmission, supervision de cas, accompagnement des praticiens.</p>
-                </div>
-              </li>
-            </ol>
+            <p className="text-neutral-700 text-sm">Début de la pratique EMDR (patient & praticien) — point de bascule.</p>
           </div>
-
-          {/* HUMOUR / QUOTE */}
-          <div className="rounded-3xl border border-neutral-200 p-6 bg-white">
-            <blockquote className="text-lg italic text-neutral-800">
-              « Comprendre, c’est déjà commencer à changer — promis, sans prise de tête. »
-            </blockquote>
+        </li>
+        <li className="flex gap-3">
+          <div className="mt-1 size-2 rounded-full bg-neutral-900" />
+          <div>
+            <div className="text-sm text-neutral-500">2015–2024</div>
+            <div className="font-medium">Addictologie & psychothérapies</div>
+            <p className="text-neutral-700 text-sm">12 ans en centre d’addictologie + formations systémique & schémas.</p>
           </div>
-
-          {/* CTA */}
-          <div className="flex flex-wrap gap-3">
-            <a
-              href={`mailto:${siteConfig.owner.email}`}
-              className="px-5 py-3 rounded-2xl bg-neutral-900 text-white"
-            >
-              Contacter
-            </a>
-            <a
-              href="/pros"
-              className="px-5 py-3 rounded-2xl border border-neutral-300"
-            >
-              Supervision & formations
-            </a>
+        </li>
+        <li className="flex gap-3">
+          <div className="mt-1 size-2 rounded-full bg-neutral-900" />
+          <div>
+            <div className="text-sm text-neutral-500">Aujourd’hui</div>
+            <div className="font-medium">Supervision & facilitation (EDEPHE)</div>
+            <p className="text-neutral-700 text-sm">Transmission, supervision de cas, accompagnement des praticiens.</p>
           </div>
-        </div>
-      </section>
-    </main>
-  );
-}
+        </li>
+      </ol>
+    </div>
+
+    {/* HUMOUR / QUOTE */}
+    <div className="rounded-3xl border border-neutral-200 p-6 bg-white">
+      <blockquote className="text-lg italic text-neutral-800">
+        « Comprendre, c’est déjà commencer à changer — promis, sans prise de tête. »
+      </blockquote>
+    </div>
+
+    {/* CTA */}
+    <div className="flex flex-wrap gap-3">
+      <a
+        href={`mailto:${siteConfig.owner.email}`}
+        className="px-5 py-3 rounded-2xl bg-neutral-900 text-white"
+      >
+        Contacter
+      </a>
+      <a
+        href="/pros"
+        className="px-5 py-3 rounded-2xl border border-neutral-300"
+      >
+        Supervision & formations
+      </a>
+    </div>
+  </div>
+</section>
