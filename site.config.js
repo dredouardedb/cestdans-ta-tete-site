@@ -6,6 +6,7 @@ const siteConfig = {
     name: "Edouard Bougueret",
     email: "contact@cestdanstateteetalors.fr",
   },
+  
   social: {
     youtube: "https://www.youtube.com/@CestDansTaTeteEtAlors",
     instagram: "https://www.instagram.com/CestDansTaTeteEtAlors",
