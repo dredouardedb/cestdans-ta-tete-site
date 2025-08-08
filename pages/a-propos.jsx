@@ -38,20 +38,8 @@ export default function APropos() {
       <section className="max-w-6xl mx-auto px-4 py-10 md:py-14 grid md:grid-cols-[320px,1fr] gap-8">
         <div className="bg-white rounded-3xl border border-neutral-200 p-4 h-fit">
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-neutral-100">
-import Image from "next/image";
+<img src="/images/edouard.jpg" alt="Portrait" className="block w-full h-auto object-cover" />
 
-// ...
-
-<div className="rounded-2xl overflow-hidden border border-neutral-200 bg-white">
-  <Image
-    src="/images/edouard.jpg"   // <— le NOM EXACT que tu viens d'uploader
-    alt={`Portrait de ${siteConfig.owner.name}`}
-    width={600}
-    height={750}
-    className="block w-full h-auto object-cover"
-    priority
-  />
-</div>
           <div className="mt-4 text-sm text-neutral-600">
             <p>Basé en France • Consultations & supervision</p>
             <a className="underline" href={`mailto:${siteConfig.owner.email}`}>
