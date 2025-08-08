@@ -31,15 +31,16 @@ export default function APropos() {
       {/* PORTRAIT + INTRO */}
       <section className="max-w-6xl mx-auto px-4 py-10 md:py-14 grid md:grid-cols-[320px,1fr] gap-8">
         <div className="bg-white rounded-3xl border border-neutral-200 p-4 h-fit">
-          <div className="aspect-[4/5] overflow-hidden rounded-2xl bg-neutral-100">
-           <Image
-  src="/images/edouard-anime.png"
-  alt={`Portrait de ${siteConfig.owner.name}`}
-  width={800}
-  height={1000}
-  className="w-full h-full object-cover"
-/>
-          </div>
+          <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-neutral-100">
+  <Image
+    src="/images/edouard-anime.png"
+    alt={`Portrait de ${siteConfig.owner.name}`}
+    fill
+    sizes="(min-width: 768px) 320px, 100vw"
+    className="object-cover"
+    priority
+  />
+</div>
           <div className="mt-4 text-sm text-neutral-600">
             <p>Basé en France • Consultations & supervision</p>
             <a className="underline" href={`mailto:${siteConfig.owner.email}`}>
