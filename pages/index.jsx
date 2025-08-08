@@ -23,6 +23,7 @@ export default function Home() {
             </div>
           </div>
           <nav className="hidden md:flex gap-4 text-sm">
+            <a href="/a-propos" className="px-3 py-2 rounded-xl hover:bg-neutral-100">À propos</a>
             {sections.map(s => (
               <a key={s.id} href={`#${s.id}`} className="px-3 py-2 rounded-xl hover:bg-neutral-100">{s.label}</a>
             ))}
