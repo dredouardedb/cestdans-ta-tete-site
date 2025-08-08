@@ -46,7 +46,7 @@ import Image from "next/image";
 
 <div className="rounded-2xl overflow-hidden border border-neutral-200 bg-white">
   <Image
-    src="/images/edouard-anime.png"
+    src="/images/edouard-anime.jpg"
     alt={`Portrait de ${siteConfig.owner.name}`}
     width={600}           // largeur fixe (intrinsique)
     height={750}          // hauteur fixe (intrinsique)
