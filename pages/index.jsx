@@ -234,6 +234,7 @@ export default function Home() {
               <li><a className="hover:underline" href="/mentions-legales">Mentions légales</a></li>
               <li><a className="hover:underline" href="/politique-de-confidentialite">Politique de confidentialité</a></li>
               <li><a className="hover:underline" href="#">Cookies</a></li>
+              <li><a href="/a-propos" className="hover:underline">À propos</a></li>
             </ul>
           </div>
         </div>
