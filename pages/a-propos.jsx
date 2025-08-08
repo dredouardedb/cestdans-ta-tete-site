@@ -15,7 +15,7 @@ export default function APropos() {
             </span>
           </h1>
           <div className="mt-4 p-3 rounded-xl bg-yellow-50 border border-yellow-200 text-sm">
-  <p>Debug image : <a className="underline" href="/images/edouard-anime.png" target="_blank">/images/edouard-anime.png</a></p>
+  <p>Debug image : <a className="underline" href="/images/edouard.jpg" target="_blank">/images/edouard.jpg</a></p>
   <div className="mt-2">
     <img src="/images/edouard.jpg" alt="test img tag" style={{maxWidth:'200px', border:'1px solid #ddd'}} />
   </div>
