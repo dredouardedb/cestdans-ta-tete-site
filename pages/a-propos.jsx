@@ -34,19 +34,12 @@ export default function APropos() {
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-neutral-100">
  import Image from "next/image";
 
-// ...
-
-<div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-neutral-100">
-  <Image
-    src="/public/images/edouard-anime.jpg"  // ton fichier dans public/images
+<div className="aspect-[4/5] overflow-hidden rounded-2xl bg-neutral-100">
+  <img
+    src="/images/edouard-anime.jpg"
     alt={`Portrait de ${siteConfig.owner.name}`}
-    fill
-    sizes="(min-width: 768px) 320px, 100vw"
-    className="object-cover"
-    priority
+    className="w-full h-full object-cover"
   />
-</div>
-
 </div>
           <div className="mt-4 text-sm text-neutral-600">
             <p>Basé en France • Consultations & supervision</p>
