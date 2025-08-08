@@ -33,7 +33,7 @@ export default function APropos() {
         <div className="bg-white rounded-3xl border border-neutral-200 p-4 h-fit">
           <div className="aspect-[4/5] overflow-hidden rounded-2xl bg-neutral-100">
             <Image
-              src="/images/edouard.jpg" // mets ta photo ici
+              src="/images/edouard.png" // mets ta photo ici
               alt={`Portrait de ${siteConfig.owner.name}`}
               width={800}
               height={1000}
