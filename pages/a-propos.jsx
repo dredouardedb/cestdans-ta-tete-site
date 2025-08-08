@@ -14,6 +14,9 @@ export default function APropos() {
               {siteConfig.owner.name}
             </span>
           </h1>
+          <div style={{border:'2px solid red', padding:12, marginTop:12}}>
+  <img src="https://via.placeholder.com/600x750" alt="placeholder" style={{display:'block', width:'100%', height:'auto'}} />
+</div>
           <div className="mt-4 p-3 rounded-xl bg-yellow-50 border border-yellow-200 text-sm">
   <p>Debug image : <a className="underline" href="/images/edouard.jpg" target="_blank">/images/edouard.jpg</a></p>
   <div className="mt-2">
