@@ -34,11 +34,18 @@ export default function APropos() {
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-neutral-100">
  import Image from "next/image";
 
-<div className="aspect-[4/5] overflow-hidden rounded-2xl bg-neutral-100">
-  <img
+import Image from "next/image";
+
+// ...
+
+<div className="rounded-2xl overflow-hidden border border-neutral-200 bg-white">
+  <Image
     src="/images/edouard-anime.jpg"
     alt={`Portrait de ${siteConfig.owner.name}`}
-    className="w-full h-full object-cover"
+    width={600}           // largeur fixe (intrinsique)
+    height={750}          // hauteur fixe (intrinsique)
+    className="block w-full h-auto object-cover"
+    priority
   />
 </div>
           <div className="mt-4 text-sm text-neutral-600">
