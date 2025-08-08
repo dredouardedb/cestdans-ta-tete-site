@@ -39,9 +39,10 @@ export default function APropos() {
         <div className="bg-white rounded-3xl border border-neutral-200 p-4 h-fit">
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-neutral-100">
 <div className="rounded-2xl overflow-hidden border border-neutral-200 bg-white">
+<div className="rounded-2xl overflow-hidden border border-neutral-200 bg-white">
   <img
-    src="/images/edouard.jpg"
-    alt={`Portrait de ${siteConfig.owner.name}`}
+    src="https://picsum.photos/600/750"
+    alt="Test image externe"
     className="block w-full h-auto object-cover"
   />
 </div>
