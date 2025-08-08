@@ -32,14 +32,21 @@ export default function APropos() {
       <section className="max-w-6xl mx-auto px-4 py-10 md:py-14 grid md:grid-cols-[320px,1fr] gap-8">
         <div className="bg-white rounded-3xl border border-neutral-200 p-4 h-fit">
           <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-neutral-100">
-  <img
-    src="/images/edouard-anime.png"
+ import Image from "next/image";
+
+// ...
+
+<div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-neutral-100">
+  <Image
+    src="/images/edouard-anime.png"  // ton fichier dans public/images
     alt={`Portrait de ${siteConfig.owner.name}`}
     fill
     sizes="(min-width: 768px) 320px, 100vw"
     className="object-cover"
     priority
   />
+</div>
+
 </div>
           <div className="mt-4 text-sm text-neutral-600">
             <p>Basé en France • Consultations & supervision</p>
