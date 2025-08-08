@@ -38,7 +38,7 @@ export default function APropos() {
 
 <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-neutral-100">
   <Image
-    src="/images/edouard-anime.png"  // ton fichier dans public/images
+    src="/images/edouard-anime.jpg"  // ton fichier dans public/images
     alt={`Portrait de ${siteConfig.owner.name}`}
     fill
     sizes="(min-width: 768px) 320px, 100vw"
